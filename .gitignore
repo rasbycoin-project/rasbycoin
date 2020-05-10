@@ -1,0 +1,34 @@
+src/*.exe
+src/rasbycoin
+src/rasbycoind
+src/test_rasbycoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.rasbycoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+rasbycoin-qt
+Rasbycoin-Qt.app
+
+# Unit-tests
+Makefile.test
+rasbycoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
