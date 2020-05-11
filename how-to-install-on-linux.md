@@ -4,15 +4,15 @@
  
 # This is Build and Error Guide for RasbyCoin Compilation
 #
-#
-#
 
 This guide will be more familiar to Ubuntu 16.04 users.
 #
-#
+
 
 # Install the dependencies :
 
+    sudo apt-get update
+    
     sudo apt-get install git
  
     sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
