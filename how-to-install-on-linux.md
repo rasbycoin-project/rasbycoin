@@ -2,11 +2,7 @@
  RasbyCoin Project          https://rasbycoin.com
  
  
-# This is Build and Error Guide for RasbyCoin Compilation
-#
-
-This guide will be more familiar to Ubuntu 16.04 users.
-#
+This is Build and Error Guide for RasbyCoin Compilation
 
 
 # Install the dependencies :
@@ -37,24 +33,35 @@ This guide will be more familiar to Ubuntu 16.04 users.
  
     sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
    
-# Next,
+# Compile Daemon and Qt
    
     cd rasbycoin/src/leveldb
     sudo chmod +x build_detect_platform
     make clean
     make libleveldb.a libmemenv.a
    
-# To generate the daemon from code, run :
+To generate the daemon from code, run :
    
     cd /rasbycoin/src
     make -f makefile.unix
     
-# To compile rasbycoin-qt
+To compile rasbycoin-qt
 
     cd /rasbycoin
     qmake
     make
    
+# Setup rasbycoin.conf in /home/.rasbycoin
+
+    addnode=18.144.82.8 
+    #
+    #
+    #
+    #
+    
+    
+    
+
 # Possible Errors can be resolved with following solutions.
 
     Error: 
