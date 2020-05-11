@@ -5,7 +5,7 @@ http://www.rasbycoin.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2011-2014 Rasbycoin Developers
+Copyright (c) 2020 Rasbycoin Developers
 
 What is Rasbycoin?
 ----------------
@@ -13,7 +13,7 @@ What is Rasbycoin?
 Rasbycoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 30 second block targets
  - subsidy halves in 840k blocks (~4 years)
- - ~840 million total coins
+ - ~84 million total coins
 
 The rest is the same as Bitcoin.
  - 500 coins per block
